@@ -30,7 +30,7 @@ def is_number(s):
 def build_mapping():
     file_list = [
         'IDS-UCS-Basic.txt',
-        'IDS-UCS-Compat-Supplment.txt',
+        'IDS-UCS-Compat-Supplement.txt',
         'IDS-UCS-Compat.txt',
         'IDS-UCS-Ext-A.txt',
         'IDS-UCS-Ext-B-1.txt',
@@ -44,8 +44,6 @@ def build_mapping():
         'IDS-UCS-Ext-E.txt',
         'IDS-UCS-Ext-F.txt'
     ]
-    for fn in file_list:
-        subprocess.call('wget http://git.chise.org/gitweb/?p=chise/ids.git;a=blob;f=' + fn, shell=True)
     _map_dict = {}
     for fn in file_list:
         for _line in tqdm(open(fn), desc=u'Reading ' + fn):
