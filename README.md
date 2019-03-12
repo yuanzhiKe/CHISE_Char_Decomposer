@@ -35,7 +35,7 @@ While in CHISE, we can see:
 
  ## What does this project do
  
- Replacing any Chinese characters in the input file with '$$ + [radicals]'
+ Replacing any Chinese characters in the input file with [radicals]
  
  ## Usage
  1 download the chise data by
