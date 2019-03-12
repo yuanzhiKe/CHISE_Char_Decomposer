@@ -53,7 +53,7 @@ def build_mapping():
             items = _line.split('\t')
             name = items[1]
             shape = items[2]
-            _map_dict[name] = '$$' + shape
+            _map_dict[name] = shape
     pickle.dump(_map_dict, open('chise_mapping.pkl', 'wb'))
     return _map_dict
 
