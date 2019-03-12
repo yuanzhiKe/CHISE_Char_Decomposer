@@ -38,12 +38,12 @@ While in CHISE, we can see:
  Replacing any Chinese characters in the input file with '$$ + [radicals]'
  
  ## Usage
- 1) download the chise data by :
+ 1 download the chise data by
     
     % git clone http://git.chise.org/git/chise/ids.git
 
- 2) move the IDS-UCS-*.txt files to the root folder of THIS project.
+ 2 move the IDS-UCS-*.txt files to the root folder of THIS project.
  
- 3) Start decomposition by
+ 3 Start decomposition by
  
     python main.py -i [input_file] -o [output_file]
