@@ -32,3 +32,11 @@ While in CHISE, we can see:
  ## Structure of CHISE data
  
  You can find a detialed description here: http://git.chise.org/gitweb/?p=chise/ids.git;a=blob_plain;f=README.en;hb=HEAD
+
+ ## What does this project do
+ 
+ Replacing any Chinese characters in the input file with '$$ + [radicals]'
+ 
+ ## Usage
+ 
+    python main.py -i [input_file] -o [output_file]
