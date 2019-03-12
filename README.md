@@ -44,6 +44,10 @@ While in CHISE, we can see:
 
  2 move the IDS-UCS-*.txt files to the root folder of THIS project.
  
- 3 Start decomposition by
+ 3 To decompose Chinese characters:
  
-    python main.py -i [input_file] -o [output_file]
+    python decompose.py -i [input_file] -o [output_file]
+   
+ 4 To recover the characters:
+   
+    python recover.py -i [input_file] -o [output_file]
