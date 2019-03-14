@@ -1,4 +1,4 @@
-# CHISE_char_decomposer
+# CHISE_Char_Decomposer
 decompose Chinese characters according to CHISE
 
 ## Comparing CHISE and GlyphWiki
